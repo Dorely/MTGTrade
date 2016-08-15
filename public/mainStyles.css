@@ -1,0 +1,144 @@
+
+html{
+    background: grey none repeat scroll 0% 0%;
+}
+
+body{
+    background: darkgray none repeat scroll 0% 0%;
+    width: 85%;
+    margin:auto;
+    height: 99vh;
+    border: medium solid;
+    border-radius: 1vh;
+}
+
+#tradeBoxContainer{
+    white-space: nowrap;
+    padding: 0.5vh;
+}
+
+.tradeTable{
+    display: block;
+    margin: auto;
+    border: solid;
+    width: 90%;
+}
+
+.tradeTable>div{
+    width: 100%;
+    display: flex;
+}
+
+.tableHeaders>div,.tableRow>div{
+    text-align: center;
+    border: solid 1px;
+    margin: 0;
+    padding: 0;
+    white-space: pre-line;
+    width: 33%;
+    word-wrap: break-word;
+}
+
+.tradeArea{
+    border: medium solid;
+    width: 49%;
+    display: inline-block;
+    height: 45vh;
+    overflow-y: scroll;
+}
+
+#searchBar{
+    margin: 1vh auto auto;
+    width: 45%;
+    display: block;
+}
+
+#resultsArea{
+    border: medium solid;
+    width: 90%;
+    margin: 2vh auto auto;
+    height: 39vh;
+    overflow-x: scroll;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+.cardDetails{
+    /*border: solid;*/
+    width: 20vh;
+    height: 34vh;
+    margin: 1vh;
+    display: inline-block;
+}
+
+.cardDetails img,.missingImage{
+    width: 100%;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+
+.addButton{
+    width: 49%;
+}
+
+.priceArea{
+    line-height: 2vh;
+    text-align: center;
+}
+
+.totalArea{
+    /*border: solid;*/
+    width: 89%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.totalArea div{
+    display: inline-block;
+    margin-left: 1vh;
+    margin-right: 1vh;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+    font-weight: bold;
+    width: 40%;
+}
+
+.totalAreaButtons{
+    display: flex;
+    /*border: solid;*/
+    width: 89%;
+    margin: auto;
+}
+
+.totalAreaButtons button{
+    width: 33%;
+}
+
+h1{
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+@media screen and (max-width: 800px){
+    html{
+        background: grey none repeat scroll 0% 0%;
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background: darkgray none repeat scroll 0% 0%;
+        width: 100%;
+        /*margin: 2vh auto auto;*/
+        height: 100vh;
+        border: none;
+        margin: 0;
+    }
+
+    .tradeArea{
+        width: 48%
+    }
+}

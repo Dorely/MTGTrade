@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="mainStyles.css" type="text/css" rel="stylesheet" media="screen">
+    <script src="tradeScripts.js"></script>
+</head>
+<body>
+<h1>MTG Trade Calculator</h1>
+<div id="tradeBoxContainer">
+    <div class="tradeArea" id="tradeArea1">
+        <div class="totalArea">
+            <div >Total: $<span id="leftTotal">0.00</span></div>
+            <div>Difference: $<span id="leftDifference">0.00</span></div>
+        </div>
+        <div class="totalAreaButtons">
+            <button>Clear</button>
+            <button>Save</button>
+            <button>Load</button>
+        </div>
+        <div class="tradeTable" id="tradeTable1">
+            <div class="tableHeaders">
+                <div>Name - Set</div>
+                <div>Price</div>
+                <div></div>
+            </div>
+            <!--<div class="tableRow">-->
+                <!--<div>Name here</div>-->
+                <!--<div>DDD</div>-->
+                <!--<div>$$.$$</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+    <div class="tradeArea" id="tradeArea2">
+        <div class="totalArea">
+            <div>Total: $<span id="rightTotal">0.00</span></div>
+            <div>Difference: $<span id="rightDifference">0.00</span></div>
+        </div>
+        <div class="totalAreaButtons">
+            <button>Clear</button>
+            <button>Save</button>
+            <button>Load</button>
+        </div>
+        <div class="tradeTable" id="tradeTable2">
+            <div class="tableHeaders">
+                <div>Name - Set</div>
+                <div>Price</div>
+                <div></div>
+            </div>
+            <!--<div class="tableRow">-->
+                <!--<div>Name here</div>-->
+                <!--<div>DDD</div>-->
+                <!--<div>$$.$$</div>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<div id="searchBox"><input id="searchBar" onkeyup="searchOnKey(this.value)" type="search" placeholder="Type Your Search Here"></div>
+<div id="resultsArea">
+    <!--<div class="cardDetails">-->
+        <!--<img src="Magic_Card_Back.png" alt="card Image here">-->
+        <!--<div class="priceArea">Price : $$$$$</div>-->
+        <!--<div class="buttonBox">-->
+            <!--<button class="addButton">Side 1</button>-->
+            <!--<button class="addButton">Side 2</button>-->
+        <!--</div>-->
+    <!--</div>-->
+
+</div>
+
+</body>
+</html>
